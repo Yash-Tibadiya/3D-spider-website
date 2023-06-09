@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.spider-text {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: -1%;
+    bottom: 19%;
+    transform: translate(-15%, -15%);
+}
